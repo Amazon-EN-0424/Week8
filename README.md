@@ -104,6 +104,5 @@
 - Step 5: Create embeddable type classes for character locations and house words and use the `@Embedded` annotation in the entity classes.
 - Step 6: Implement repository interfaces for each entity using Spring Data JPA.
 - Step 7: Write unit tests to verify the functionality of relationships, enumerated types, and embeddable types.
-- Step 8: Configure the database connection properties.
-- Step 9: Test the application by running it and interacting with the APIs using tools like Postman or cURL.
+
 
