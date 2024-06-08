@@ -33,11 +33,11 @@
   - Use the `@Embedded` annotation in the entity class to include the embeddable type as a member variable.
   - The attributes of the embeddable type will be mapped to columns in the same table as the entity.
 
-## 🎮 Game of Thrones: Relationships in Spring Boot JPA and MySQL
+## 🎮 Game of Thrones: Relationships in JPA and MySQL
 
 ### 🐉 Thargaryens and Dragons: One-to-One Relationship
 - **Objective:**
-  - Implement a one-to-one relationship between Thargaryens and their dragons using Spring Boot JPA and MySQL.
+  - Implement a one-to-one relationship between Thargaryens and their dragons using JPA and MySQL.
   - Each Thargaryen can have only one dragon, and each dragon belongs to only one Thargaryen.
 
 ### 🏰 Characters and Houses: Many-to-One Relationship
@@ -59,34 +59,34 @@
 ## 🎨 Practical Exercises
 
 ### Exercise 1: Planets and Moons in the Star Wars Universe
-- **Task:** Create a Spring Boot application that models the relationships between planets and their moons in the Star Wars universe using JPA and MySQL.
+- **Task:** Create a JPA application that models the relationships between planets and their moons in the Star Wars universe using JPA and MySQL.
 - **Instructions:**
-  - Set up a new Spring Boot project with the necessary dependencies for JPA and MySQL.
+  - Set up a new project with the necessary dependencies for JPA and MySQL.
   - Create entity classes for planets and moons.
   - Use appropriate JPA annotations to define the one-to-many relationship between planets and moons.
-  - Configure the database connection properties in the `application.properties` file.
+  - Configure the database connection properties.
   - Implement repository interfaces for planets and moons using Spring Data JPA.
   - Write unit tests to verify the correctness of the relationship and perform CRUD operations.
 
 ### Exercise 2: Starships and Crew Members in the Star Trek Universe
-- **Task:** Develop a Spring Boot application that represents the relationships between starships and their crew members in the Star Trek universe using JPA and MySQL.
+- **Task:** Develop a JPA application that represents the relationships between starships and their crew members in the Star Trek universe using JPA and MySQL.
 - **Instructions:**
-  - Set up a new Spring Boot project with the required dependencies for JPA and MySQL.
+  - Set up a new project with the required dependencies for JPA and MySQL.
   - Create entity classes for starships and crew members.
   - Use appropriate JPA annotations to establish the many-to-many relationship between starships and crew members.
-  - Configure the database connection properties in the `application.properties` file.
+  - Configure the database connection properties.
   - Implement repository interfaces for starships and crew members using Spring Data JPA.
   - Write unit tests to verify the functionality of the relationship and perform CRUD operations.
 
 ### 💡 Discussion
 - Discuss the benefits and use cases of different relationship types in database design.
 - Explore the role of JPA annotations in mapping object-oriented relationships to relational databases.
-- Share best practices for designing and implementing entity relationships in Spring Boot applications.
+- Share best practices for designing and implementing entity relationships in JPA applications.
 
 ## 🧩 Practical Project: Game of Thrones Character and House Management System
 
 ### Project Description
-- Develop a character and house management system for the Game of Thrones universe using Spring Boot, JPA, and MySQL.
+- Develop a character and house management system for the Game of Thrones universe using JPA and MySQL.
 - The system should allow users to perform CRUD operations on characters and houses, manage their relationships, and utilize enumerated and embeddable types.
 
 ### Project Requirements
@@ -94,22 +94,16 @@
 - Establish the appropriate relationships between entities using JPA annotations.
 - Utilize enumerated types for character titles and house sigils.
 - Incorporate embeddable types for character locations and house words.
-- Provide RESTful APIs for performing CRUD operations on characters, houses, and alliances.
 - Implement unit tests to verify the functionality of the relationships, enumerated types, and embeddable types.
 
 ### 🚀 Implementation Steps
-- Step 1: Set up a new Spring Boot project with the required dependencies for JPA and MySQL.
+- Step 1: Set up a new project with the required dependencies for JPA and MySQL.
 - Step 2: Design and create the entity classes for characters, houses, dragons, the Wall, the Night's Watch, and alliances.
 - Step 3: Define the relationships between entities using JPA annotations (`@OneToOne`, `@ManyToOne`, `@OneToMany`, `@ManyToMany`).
 - Step 4: Implement enumerated types for character titles and house sigils using the `@Enumerated` annotation.
 - Step 5: Create embeddable type classes for character locations and house words and use the `@Embedded` annotation in the entity classes.
 - Step 6: Implement repository interfaces for each entity using Spring Data JPA.
-- Step 7: Create RESTful API controllers for characters, houses, and alliances with endpoints for CRUD operations.
-- Step 8: Write unit tests to verify the functionality of relationships, enumerated types, and embeddable types.
-- Step 9: Configure the database connection properties in the `application.properties` file.
-- Step 10: Test the application by running it and interacting with the APIs using tools like Postman or cURL.
+- Step 7: Write unit tests to verify the functionality of relationships, enumerated types, and embeddable types.
+- Step 8: Configure the database connection properties.
+- Step 9: Test the application by running it and interacting with the APIs using tools like Postman or cURL.
 
-### 💡 Discussion
-- Discuss how the concepts learned in Week 7 (Enumerated Types, Embeddable Types, One-to-One, One-to-Many, Many-to-One, Many-to-Many) are applied in the Game of Thrones character and house management system project.
-- Share insights on designing and implementing complex entity relationships in real-world applications.
-- Explore potential enhancements or additional features that could be added to the project.
