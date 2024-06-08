@@ -1,4 +1,4 @@
-# 📚 Week 7
+# 📚 Week 8
 
 ## 🔢 Enumerated Types in JPA
 
